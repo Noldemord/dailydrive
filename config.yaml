@@ -1,0 +1,28 @@
+# --- DEINE PLAYLIST ---
+playlist_id: "7r75xWOfmD6Y7o796vMv0f"
+
+# --- DEINE PODCASTS ---
+podcasts:
+  - id: "3892s9676uS96mZ1i9vSOf" # Gemischtes Hack
+  - id: "3pYvS66uS96vSOfi9vSOfi" # Hobbylos
+  - id: "4YvS66uS96vSOfi9vSOfi9" # Baywatch Berlin
+  - id: "5YvS66uS96vSOfi9vSOfi9" # LANZ & PRECHT
+
+# --- DEIN MUSIK-MIX ---
+music:
+  top_tracks:
+    enabled: true
+    time_range: "short_term" 
+    count: 30
+
+  # Deine echten Top 6 Genres aus dem Screenshot:
+  genres:
+    - "german hip hop"
+    - "german indie"
+    - "german indie pop"
+    - "german pop"
+    - "hypertechno"
+    - "techno"
+
+# --- DER MIX ---
+mix_pattern: "MMMMM P"
