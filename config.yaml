@@ -1,21 +1,38 @@
-# --- DEINE PLAYLIST ---
+# --- Spotify App Credentials ---
+spotify:
+  client_id: "b35224aa0bf64e419bad17b2ab441b3d"
+  client_secret: "a3e6013ba43e450296ce63056abf48eb"
+  redirect_uri: "http://127.0.0.1:8888/callback"
+
+# --- Your Playlist ---
 playlist_id: "7r75xWOfmD6Y7o796vMv0f"
 
-# --- DEINE PODCASTS ---
+# --- Podcasts ---
 podcasts:
-  - id: "3892s9676uS96mZ1i9vSOf" # Gemischtes Hack
-  - id: "3pYvS66uS96vSOfi9vSOfi" # Hobbylos
-  - id: "4YvS66uS96vSOfi9vSOfi9" # Baywatch Berlin
-  - id: "5YvS66uS96vSOfi9vSOfi9" # LANZ & PRECHT
+  - name: "Tagesschau in 100 Sekunden"
+    id: "3yXvOOfi9vSOfi9vSOfi9v" 
+    episodes: 1
+    position: first  # Startet immer als allererstes
 
-# --- DEIN MUSIK-MIX ---
+  - name: "Was jetzt? - Zeit Online"
+    id: "4kSOfi9vSOfi9vSOfi9vSO"
+    episodes: 1
+
+  - name: "Alles auf Aktien"
+    id: "5mSOfi9vSOfi9vSOfi9vSO"
+    episodes: 1
+
+  - name: "Ohne Aktien wird schwer"
+    id: "6nSOfi9vSOfi9vSOfi9vSO"
+    episodes: 1
+
+# --- Music Sources ---
 music:
   top_tracks:
     enabled: true
-    time_range: "short_term" 
+    time_range: "short_term"
     count: 30
 
-  # Deine echten Top 6 Genres aus dem Screenshot:
   genres:
     - "german hip hop"
     - "german indie"
@@ -24,5 +41,9 @@ music:
     - "hypertechno"
     - "techno"
 
-# --- DER MIX ---
+  total_songs: 20
+  shuffle: true
+
+# --- Mix Pattern ---
+# Zuerst 5 Lieder (M), dann 1 Podcast (P)
 mix_pattern: "MMMMM P"
